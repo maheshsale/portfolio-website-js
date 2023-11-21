@@ -3,3 +3,75 @@
       padding: 0;
       font-family: 'Poppins', sans-serif;
 }
+
+.header{
+      display: flex;
+      justify-content: space-around;
+      margin: 2rem auto;
+}
+#name{
+      font-size: 1.5rem;
+}
+
+nav ul{
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+}
+
+li a:hover{
+      color: gray;
+      text-decoration: underline;
+}
+
+li a{
+      text-decoration: none;
+}
+
+
+#hero-section{
+      display: flex;
+}
+
+.profile-img img{
+      height: 17vw;
+}
+
+.buttons{
+      display: flex;
+      gap:1rem;
+}
+.buttons button{
+      padding: 0.7rem;
+      border-radius: 24px;
+      cursor: pointer;
+}
+
+#contact-info{
+      background-color: black;
+      color: white;
+}
+
+
+.social-media-icons{
+      display: flex;
+      gap: 1rem;
+}
+.social-media-icons img{
+      width: 2rem;
+}
+
+#hero-section{
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      margin-top: 6rem;
+}
+
+.description{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:0.7rem;
+}
