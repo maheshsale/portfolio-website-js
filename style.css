@@ -75,3 +75,13 @@ li a{
       align-items: center;
       gap:0.7rem;
 }
+
+/* About Me Section */
+.about-me-heading{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      margin: 5rem;
+}
