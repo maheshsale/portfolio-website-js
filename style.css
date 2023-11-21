@@ -85,3 +85,7 @@ li a{
       align-items: center;
       margin: 5rem;
 }
+
+.about-me-img img{
+      width: 18rem;
+}
