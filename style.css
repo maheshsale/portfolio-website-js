@@ -146,12 +146,6 @@ li a{
       flex-wrap: wrap;
 }
 
-.experiences{
-      border: 2px solid red;
-      width: 33%;
-      height: 33%;
-}
-
 .skill-cell{
       display: flex;
       flex-direction: column;
@@ -160,4 +154,20 @@ li a{
 
 .skill-cell img{
       width: 5rem;
+}
+
+.experiences{
+      border: 2px solid red;
+      width: 33%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:3rem;
+}
+
+.experience-cell{
+      display: flex;
+      align-items:flex-start;
+      gap: 3rem;
 }
