@@ -113,12 +113,11 @@ li a{
 }
 
 .exp-edu-section{
-      border: 1px solid red;
       display: flex;
       gap: 7.5rem;
 }
 
-.experience, .education, .front-end, .back-end{
+.experience, .education{
       border: 1px solid black;
       border-radius: 24px;
       display: flex;
@@ -131,9 +130,34 @@ li a{
 }
 
 
-.skills{
+.skills-and-experiences{
       display: flex;
       justify-content: center;
       gap: 2rem;
       margin-top: 2rem;
+}
+
+.skills{
+      border: 2px solid red;
+      display: flex;
+      width: 33%;
+      height: 33%;
+      gap: 2rem;
+      flex-wrap: wrap;
+}
+
+.experiences{
+      border: 2px solid red;
+      width: 33%;
+      height: 33%;
+}
+
+.skill-cell{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.skill-cell img{
+      width: 5rem;
 }
