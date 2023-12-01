@@ -145,7 +145,6 @@ li a{
 }
 
 .skills{
-      border: 2px solid red;
       display: flex;
       width: 33%;
       height: 33%;
@@ -164,7 +163,6 @@ li a{
 }
 
 .experiences{
-      border: 2px solid red;
       width: 33%;
       height: 100%;
       display: flex;
@@ -191,7 +189,8 @@ li a{
 }
 
 .project img{
-      width: 20rem;
+      width: 80%;
+      height: 80%;
       border-radius: 24px;
 }
 
